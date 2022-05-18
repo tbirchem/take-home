@@ -1,0 +1,37 @@
+.navbar {
+  background-color:#fff;
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  padding-left: 1rem;
+  align-items: left;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
+
+.navbar-header {
+  color: #000000;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: left;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
